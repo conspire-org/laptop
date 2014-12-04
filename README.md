@@ -9,10 +9,8 @@ Install
 
 Download, review, then execute the script:
 
-```sh
-curl --remote-name https://raw.githubusercontent.com/conspire-org/laptop/master/mac
-less mac
-bash mac 2>&1 | tee ~/laptop.log
+```
+bash <(curl -s https://raw.githubusercontent.com/conspire-org/laptop/master/mac) 2>&1 | tee ~/laptop.log
 ```
 
 Debugging

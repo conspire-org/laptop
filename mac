@@ -111,11 +111,15 @@ fancy_echo "Installing Postgres, a good open source relational database ..."
 fancy_echo "Installing libyaml"
   brew_install_or_upgrade 'libyaml'
 
-fancy_echo "Installing mySQL"
+fancy_echo "Installing MySQL"
   brew_install_or_upgrade 'mysql'
+fancy_echo "Setting MySQL to start on system startup"
+  ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
 
 fancy_echo "Installing memcached"
   brew_install_or_upgrade 'memcached'
+fancy_echo "Setting memcached to start on system startup"
+  ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
 
 fancy_echo "Installing Redis, a good key-value database ..."
   brew_install_or_upgrade 'redis'

@@ -175,6 +175,9 @@ fancy_echo "Installing the heroku-config plugin to pull config variables locally
 fancy_echo "Installing foreman ..."
   curl -sLo /tmp/foreman.pkg http://assets.foreman.io/foreman/foreman.pkg && \
   sudo installer -pkg /tmp/foreman.pkg -tgt /
+  
+fancy_echo "Installing Bower, for those Javascripts"
+  npm install -g bower
 
 fancy_echo "Installing your personal additions from ~/.laptop.local ..."
   if [[ -f ~/.laptop.local ]]; then

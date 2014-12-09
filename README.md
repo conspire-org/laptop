@@ -39,6 +39,7 @@ What it sets up
 * [Redis] for storing key-value data
 * [Ruby] stable for writing general-purpose code
 * [Zsh] as your shell
+* [Bower] your JS friend
 
 [Bundler]: http://bundler.io/
 [Foreman]: https://github.com/ddollar/foreman
@@ -56,6 +57,7 @@ What it sets up
 [Redis]: http://redis.io/
 [Ruby]: https://www.ruby-lang.org/en/
 [Zsh]: http://www.zsh.org/
+[Bower]: http://bower.io/
 
 It should take less than 15 minutes to install (depends on your machine).
 

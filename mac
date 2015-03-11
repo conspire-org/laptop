@@ -133,7 +133,7 @@ fancy_echo "Installing QT, used by Capybara Webkit for headless Javascript integ
 fancy_echo "Installing PhantomJS"
   brew_install_or_upgrade 'phantomjs'
 
-node_version="0.10"
+node_version="v0.10.36"
 
 fancy_echo "Installing NVM, Node.js, and NPM, for running apps and installing JavaScript packages ..."
   brew_install_or_upgrade 'nvm'
